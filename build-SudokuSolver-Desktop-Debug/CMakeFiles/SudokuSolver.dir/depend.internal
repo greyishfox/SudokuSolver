@@ -584,6 +584,8 @@ CMakeFiles/SudokuSolver.dir/src/app/ocr.cpp.o
  /usr/local/include/opencv4/opencv2/imgcodecs.hpp
  /usr/local/include/opencv4/opencv2/imgproc.hpp
  /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp
+ /usr/local/include/opencv4/opencv2/ml.hpp
+ /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp
  /usr/local/include/opencv4/opencv2/opencv_modules.hpp
  /usr/local/include/opencv4/opencv2/videoio.hpp
 CMakeFiles/SudokuSolver.dir/src/app/solver.cpp.o

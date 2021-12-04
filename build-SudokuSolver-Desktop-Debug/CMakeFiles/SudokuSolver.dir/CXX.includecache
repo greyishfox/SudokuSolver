@@ -29,6 +29,8 @@ ocr.h
 /home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver/src/app/ocr.h
 imageprocessing.h
 /home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver/src/app/imageprocessing.h
+opencv2/ml.hpp
+-
 
 /usr/local/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp
@@ -401,6 +403,20 @@ opencv2/core.hpp
 /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp
 opencv2/imgproc.hpp
 /usr/local/include/opencv4/opencv2/imgproc/opencv2/imgproc.hpp
+
+/usr/local/include/opencv4/opencv2/ml.hpp
+opencv2/core.hpp
+/usr/local/include/opencv4/opencv2/opencv2/core.hpp
+float.h
+-
+map
+-
+iostream
+-
+opencv2/ml/ml.inl.hpp
+-
+
+/usr/local/include/opencv4/opencv2/ml/ml.inl.hpp
 
 /usr/local/include/opencv4/opencv2/opencv_modules.hpp
 
