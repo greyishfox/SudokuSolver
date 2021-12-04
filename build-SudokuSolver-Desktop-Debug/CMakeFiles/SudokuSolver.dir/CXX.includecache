@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver/src/app/imageprocessing.cpp
-imageprocessing.h
-/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver/src/app/imageprocessing.h
-
 /home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver/src/app/imageprocessing.h
 iostream
 -
@@ -25,6 +21,14 @@ opencv2/imgproc.hpp
 -
 opencv2/calib3d.hpp
 -
+
+/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver/src/app/ocr.cpp
+ocr.h
+/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver/src/app/ocr.h
+
+/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver/src/app/ocr.h
+imageprocessing.h
+/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver/src/app/imageprocessing.h
 
 /usr/local/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp
