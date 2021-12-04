@@ -1,0 +1,4 @@
+/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/build-SudokuSolver-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/build-SudokuSolver-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/build-SudokuSolver-Desktop-Debug/CMakeFiles/SudokuSolver.dir
+/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/build-SudokuSolver-Desktop-Debug/CMakeFiles/SudokuSolver_autogen.dir

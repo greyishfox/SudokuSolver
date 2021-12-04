@@ -1,0 +1,68 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SudokuSolver",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SudokuSolver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SudokuSolver-Debug-e4f565e557251a5e294d.json",
+					"name" : "SudokuSolver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SudokuSolver_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SudokuSolver_autogen-Debug-1944c6254d58ebd72a2c.json",
+					"name" : "SudokuSolver_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/build-SudokuSolver-Desktop-Debug",
+		"source" : "/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
