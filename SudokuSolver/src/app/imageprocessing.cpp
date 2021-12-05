@@ -1,12 +1,13 @@
 #include "imageprocessing.h"
 
-cv::Mat ImageProcessing::imagePreprocessing(const cv::Mat sourceImage, cv::Mat thresholdImg, const int thresholdType)
+cv::Mat ImageProcessing::imagePreprocessing(const cv::Mat sourceImage, const int thresholdType)
 {
     // Change image to greyscale
     cv::Mat greyscale;
     cv::cvtColor(sourceImage, greyscale, cv::COLOR_RGB2GRAY);
 
     // Apply simple treshold filter
+    cv::Mat thresholdImg;
     const double thresholdValue = 128;
     const double maxBinaryValue = 255;
     cv::threshold(greyscale, thresholdImg, thresholdValue, maxBinaryValue, thresholdType);
@@ -40,7 +41,7 @@ std::vector<cv::Point> ImageProcessing::getFrameContour(cv::Mat thresholdImg)
     return cVector[index];
 }
 
-std::vector<cv::Point> ImageProcessing::findFrameCorners(std::vector<cv::Point> frameContour)
+std::vector<cv::Point> ImageProcessing::findFrameCorners(cv::Mat sourceImage, std::vector<cv::Point> frameContour)
 {
     // Define parameters for approxPolyDP funtion
     std::vector<cv::Point> polygon;
@@ -53,9 +54,10 @@ std::vector<cv::Point> ImageProcessing::findFrameCorners(std::vector<cv::Point> 
     if(polygon.size() == 4)
     {
         std::cout << "Frame corners found!" << std::endl;
-        //cv::drawContours(poly_img, Mat(polygon), -1, cv::Scalar(0, 0, 255), 3, 8);
-        //cv::imshow("Corner image", poly_img);
-        //waitKey(0);
+        // cv::Mat poly_img = sourceImage.clone();
+        // cv::drawContours(poly_img, cv::Mat(polygon), -1, cv::Scalar(0, 0, 255), 3, 8);
+        // cv::imshow("Corner image", poly_img);
+        // waitKey(0);
     }
     else
         std::cout << "Error: Contour has more than 4 corners!" << std::endl;
@@ -67,8 +69,8 @@ std::vector<cv::Point> ImageProcessing::findFrameCorners(std::vector<cv::Point> 
 cv::Mat ImageProcessing::getTopView(const cv::Mat sourceImage, std::vector<cv::Point> frameCorners)
 {
     // Get image dimension
-    const int imHeight = sourceImage.rows;
-    const int imWidth = sourceImage.cols;
+    const int imWidth = sourceImage.rows;
+    const int imHeight = sourceImage.cols;
 
     // Define a vector holding the corners of the original image
     std::vector<cv::Point> imDimension = {cv::Point(imWidth,0), cv::Point(0,0),
@@ -77,7 +79,7 @@ cv::Mat ImageProcessing::getTopView(const cv::Mat sourceImage, std::vector<cv::P
     // Apply perspective transform
     cv::Mat perspective = cv::findHomography(frameCorners, imDimension, cv::RANSAC);
     cv::Mat topViewImage;
-    cv::warpPerspective(sourceImage, topViewImage, perspective, sourceImage.size());
+    cv::warpPerspective(sourceImage, topViewImage, perspective, cv::Size(imWidth,imHeight));
 
     return topViewImage;
 }

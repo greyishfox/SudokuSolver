@@ -2,6 +2,9 @@
 #define WIDGET_H
 
 #include <QWidget>
+#include "imageprocessing.h"
+#include "solver.h"
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
@@ -17,11 +20,15 @@ public:
 
 public slots:
     void plotOrigImg();
-    // void plotSolvImg();
+    void plotSolvImg();
     // void saveImg();
 
 private:
     Ui::Widget *ui;
-    QImage displayImage;
+    cv::Mat origImg;
+    QImage displayOrigImage;
+    QImage displaySolvImage;
+
+    ImageProcessing imgProcess;
 };
 #endif // WIDGET_H

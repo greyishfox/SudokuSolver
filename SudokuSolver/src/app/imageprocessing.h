@@ -15,11 +15,11 @@ class ImageProcessing
 public:
     // ImageProcessing(); // Constructor not used
     // Public member functions
-    cv::Mat imagePreprocessing(const cv::Mat sourceImage, cv::Mat thresholdImg, const int thresholdType);
+    cv::Mat imagePreprocessing(const cv::Mat sourceImage, const int thresholdType);
 
     std::vector<cv::Point> getFrameContour(cv::Mat thresholdImg);
 
-    std::vector<cv::Point> findFrameCorners(std::vector<cv::Point> frameContour);
+    std::vector<cv::Point> findFrameCorners(cv::Mat sourceImage, std::vector<cv::Point> frameContour);
 
     cv::Mat getTopView(const cv::Mat sourceImage, std::vector<cv::Point> frameCorners);
 
