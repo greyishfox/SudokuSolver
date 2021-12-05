@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.5)
 
 project(SudokuSolver LANGUAGES CXX)
 
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+
 # set build type to Debug/Release
 set(CMAKE_BUILD_TYPE "Debug")
 
@@ -15,7 +17,6 @@ find_package(Threads)
 set(OpenCV_DIR "../opencv_build/opencv/build")
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
-
 
 # Qt flags
 set(CMAKE_AUTOUIC ON)
@@ -56,7 +57,7 @@ FILE(COPY ${CMAKE_CURRENT_SOURCE_DIR}/img/sudoku_sample_image.jpeg DESTINATION $
 FILE(COPY ${CMAKE_CURRENT_SOURCE_DIR}/img/OCR_training_set03.jpg DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 
 # Define required c++ standard to C++11
-target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_17)
+target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_11)
 
 # Set compile options, enable warnings
 target_compile_options(${PROJECT_NAME} PRIVATE

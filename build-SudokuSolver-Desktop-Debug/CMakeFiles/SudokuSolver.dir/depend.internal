@@ -1154,6 +1154,8 @@ CMakeFiles/SudokuSolver.dir/src/ui/qcustomplot-source/qcustomplot.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidgetaction.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwizard.h
 CMakeFiles/SudokuSolver.dir/src/ui/widget.cpp.o
+ /home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver/src/app/imageprocessing.h
+ /home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver/src/app/solver.h
  /home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver/src/ui/widget.cpp
  /home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver/src/ui/widget.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
@@ -1239,6 +1241,7 @@ CMakeFiles/SudokuSolver.dir/src/ui/widget.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
@@ -1260,11 +1263,63 @@ CMakeFiles/SudokuSolver.dir/src/ui/widget.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
+ /usr/local/include/opencv4/opencv2/calib3d.hpp
+ /usr/local/include/opencv4/opencv2/core.hpp
+ /usr/local/include/opencv4/opencv2/core/affine.hpp
+ /usr/local/include/opencv4/opencv2/core/base.hpp
+ /usr/local/include/opencv4/opencv2/core/bufferpool.hpp
+ /usr/local/include/opencv4/opencv2/core/check.hpp
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_helper.h
+ /usr/local/include/opencv4/opencv2/core/cvdef.h
+ /usr/local/include/opencv4/opencv2/core/cvstd.hpp
+ /usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp
+ /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp
+ /usr/local/include/opencv4/opencv2/core/fast_math.hpp
+ /usr/local/include/opencv4/opencv2/core/hal/interface.h
+ /usr/local/include/opencv4/opencv2/core/hal/msa_macros.h
+ /usr/local/include/opencv4/opencv2/core/mat.hpp
+ /usr/local/include/opencv4/opencv2/core/mat.inl.hpp
+ /usr/local/include/opencv4/opencv2/core/matx.hpp
+ /usr/local/include/opencv4/opencv2/core/neon_utils.hpp
+ /usr/local/include/opencv4/opencv2/core/operations.hpp
+ /usr/local/include/opencv4/opencv2/core/optim.hpp
+ /usr/local/include/opencv4/opencv2/core/ovx.hpp
+ /usr/local/include/opencv4/opencv2/core/persistence.hpp
+ /usr/local/include/opencv4/opencv2/core/saturate.hpp
+ /usr/local/include/opencv4/opencv2/core/traits.hpp
+ /usr/local/include/opencv4/opencv2/core/types.hpp
+ /usr/local/include/opencv4/opencv2/core/utility.hpp
+ /usr/local/include/opencv4/opencv2/core/utils/instrumentation.hpp
+ /usr/local/include/opencv4/opencv2/core/utils/tls.hpp
+ /usr/local/include/opencv4/opencv2/core/version.hpp
+ /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp
+ /usr/local/include/opencv4/opencv2/features2d.hpp
+ /usr/local/include/opencv4/opencv2/flann/config.h
+ /usr/local/include/opencv4/opencv2/flann/defines.h
+ /usr/local/include/opencv4/opencv2/flann/miniflann.hpp
+ /usr/local/include/opencv4/opencv2/highgui.hpp
+ /usr/local/include/opencv4/opencv2/imgcodecs.hpp
+ /usr/local/include/opencv4/opencv2/imgproc.hpp
+ /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp
+ /usr/local/include/opencv4/opencv2/opencv_modules.hpp
+ /usr/local/include/opencv4/opencv2/videoio.hpp
  SudokuSolver_autogen/include/ui_widget.h

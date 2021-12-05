@@ -48,6 +48,8 @@
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
 					<Add option="-DQT_PRINTSUPPORT_LIB"/>
+					<Add directory="/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/build-SudokuSolver-Desktop-Debug"/>
+					<Add directory="/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver"/>
 					<Add directory="/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/build-SudokuSolver-Desktop-Debug/SudokuSolver_autogen/include"/>
 					<Add directory="/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver/src"/>
 					<Add directory="/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver/src/app"/>
@@ -86,6 +88,8 @@
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
 					<Add option="-DQT_PRINTSUPPORT_LIB"/>
+					<Add directory="/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/build-SudokuSolver-Desktop-Debug"/>
+					<Add directory="/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver"/>
 					<Add directory="/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/build-SudokuSolver-Desktop-Debug/SudokuSolver_autogen/include"/>
 					<Add directory="/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver/src"/>
 					<Add directory="/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver/src/app"/>

@@ -24,6 +24,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "."
+  "/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver"
   "SudokuSolver_autogen/include"
   "/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver/src"
   "/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver/src/app"

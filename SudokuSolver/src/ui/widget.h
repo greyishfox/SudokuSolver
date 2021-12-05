@@ -15,7 +15,13 @@ public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
 
+public slots:
+    void plotOrigImg();
+    // void plotSolvImg();
+    // void saveImg();
+
 private:
     Ui::Widget *ui;
+    QImage displayImage;
 };
 #endif // WIDGET_H

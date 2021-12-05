@@ -46,6 +46,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/build-SudokuSolver-Desktop-Debug",
+		"/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver",
 		"/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver/src",
 		"/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver/src/app",
 		"/home/moke/OneDrive/UniBe_Master/2021_HS/02_Cpp_2/09_Sudoku/SudokuSolver/src/ui",
